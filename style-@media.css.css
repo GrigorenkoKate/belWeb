@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+   .commercial-offer-tile {
+      display: inline-block;
+      padding: 25px 30px;
+      border-radius: 8px;
+      width: 100%;
+      height: auto;
+   }
+   .commercial-offer-tile__img {
+      height: 50px;
+      max-width: 140px;
+      margin-bottom: 10px;
+   }
+
+   .commercial-offer-tile__text-container {
+   }
+   .commercial-offer-tile__btn {
+      margin-top: 20px;
+   }
+   .btn.btn--full {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   .commercial-offer-tile__text {
+      max-width: 90%;
+   }
+}
